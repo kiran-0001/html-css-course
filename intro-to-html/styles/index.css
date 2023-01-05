@@ -1,0 +1,336 @@
+body {
+  padding-bottom: 500px;
+}
+.price {
+  color: rgb(0, 118, 0);
+}
+.add {
+  background-color: rgb(255, 216, 20);
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 18px;
+  padding-right: 18px;
+  border-radius: 30px;
+  border-color: transparent;
+  margin-right: 8px;
+  cursor: pointer;
+  transition: opacity 0.15s;
+  margin-bottom: 10px;
+}
+.add:hover {
+  opacity: 0.5;
+}
+.add:active {
+  opacity: 0.25;
+}
+.buy {
+  background-color: rgb(255, 164, 28);
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 18px;
+  padding-right: 18px;
+  border-radius: 16px;
+  border-color: transparent;
+  margin-right: 8px;
+  cursor: pointer;
+  transition: opacity 0.15s;
+  margin-bottom: 10px;
+}
+.buy:hover {
+  opacity: 0.5;
+}
+.buy:active {
+  opacity: 0.25;
+}
+.link:hover {
+  color: orange;
+}
+.apple-new {
+  font-family: Arial, Helvetica, sans-serif;
+  color: orange;
+  text-align: center;
+  margin-bottom: 0px;
+}
+.apple-title {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.apple-slogan {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.apple-price {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 7px;
+  margin-bottom: 0px;
+}
+.apple-button {
+  text-align: center;
+  border-radius: 25px;
+  border-color: transparent;
+  background-color: rgb(33, 118, 238);
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 13px;
+  padding-right: 13px;
+  margin-top: 7px;
+  cursor: pointer;
+  transition: opacity 0.15s;
+  margin-bottom: 10px;
+}
+.apple-button:hover {
+  opacity: 0.9;
+}
+.apple-button:active {
+  opacity: 0.75;
+}
+.car-model {
+  text-align: center;
+  font-family: Montserrat;
+  margin-bottom: 0px;
+}
+.car-order {
+  margin-top: 10px;
+  text-align: center;
+  font-family: Montserrat;
+}
+.car-delivery {
+  text-decoration: underline;
+  cursor: pointer;
+  transition: opacity 0.15;
+}
+.car-delivery:hover {
+  opacity: 0.75;
+}
+.google-logo {
+  display: block;
+  text-align: center;
+  width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+.search-bar {
+  font-size: 16px;
+  border-radius: 30px;
+  border: none;
+  display: block;
+  text-align: center;
+  width: 500px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
+}
+.last-name,
+.first-name {
+  width: 100px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(178, 173, 173);
+  margin-top: 40px;
+  border-radius: 5px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 10px;
+}
+.email {
+  display: block;
+  width: 218px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(178, 173, 173);
+  margin-top: 10px;
+  border-radius: 5px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 10px;
+}
+.sign-up {
+  display: block;
+  border-color: transparent;
+  border-radius: 5px;
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  width: 232px;
+  background-color: rgb(0, 119, 255);
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+.sign-up:hover {
+  opacity: 0.9;
+}
+.div-cat {
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+}
+.add-friend {
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 12px;
+  padding-right: 12px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  border-color: transparent;
+  background-color: rgb(0, 123, 255);
+  color: white;
+  border-radius: 3px;
+  transition: opacity 0.15s;
+  cursor: pointer;
+}
+.add-friend:hover {
+  opacity: 0.9;
+}
+.add-friend:active {
+  opacity: 0.75;
+}
+.name {
+  font-family: Arial, Helvetica, sans-serif;
+  display: block;
+  margin-top: 5px;
+  margin-left: 10px;
+  margin-bottom: 8px;
+}
+.friends {
+  font-family: Arial, Helvetica, sans-serif;
+  color: gray;
+  margin-top: 0px;
+  margin-left: 10px;
+  margin-bottom: 8px;
+}
+.profile-view {
+  border-color: red;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3);
+  display: inline-block;
+  margin-left: 20px;
+  margin-bottom: 40px;
+}
+.cat-pfp {
+  border-radius: 300px;
+  width: 75px;
+  margin-right: 0px;
+}
+.cat-name {
+  display: inline-block;
+  margin-bottom: 0px;
+}
+.cat-NameH1 {
+  display: inline-block;
+  margin-bottom: 0px;
+  font-size: 30px;
+  vertical-align: top;
+}
+.cat-animal {
+  color: gray;
+}
+.cat-AnimalH1 {
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+.cat-popular {
+  color: gray;
+}
+.cat-PopularH1 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.pfp-layout {
+  display: inline-block;
+}
+.text-layout {
+  margin-left: 20px;
+  margin-right: 40px;
+  display: inline-block;
+}
+.button-layout {
+  display: inline-block;
+}
+.follow-button {
+  border-color: transparent;
+  color: white;
+  background-color: rgb(0, 123, 255);
+  border-radius: 5px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 12px;
+  padding-right: 12px;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+.follow-button:hover {
+  opacity: 0.9;
+}
+.follow-button:active {
+  opacity: 0.8;
+}
+.grid {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 200px 75px;
+}
+.two-px {
+  background-color: lightblue;
+}
+.seven-px {
+  background-color: lightcoral;
+}
+.big-grid {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 10px;
+  margin-bottom: 50px;
+}
+.flexbox-header {
+  background-color: rgb(120, 82, 178);
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.header-title {
+  color: white;
+  font-family: Montserrat;
+  font-size: 20px;
+}
+.header-button {
+  background-color: transparent;
+  color: white;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 2px;
+  border-color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 8px;
+  padding-right: 8px;
+  transition: color 0.15s;
+  transition: background-color 0.15s;
+  transition: opacity 0.15s;
+}
+.header-button:hover {
+  background-color: white;
+  color: rgb(120, 82, 178);
+}
+.header-button:active {
+  opacity: 0.75;
+}
